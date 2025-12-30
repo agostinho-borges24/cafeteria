@@ -2,7 +2,7 @@
 
 Website institucional responsivo para uma cafeteria temática voltada a programadores, unindo café de qualidade e tecnologia.
 
-O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript puro**, com foco em boas práticas, organização de código e responsividade para dispositivos móveis.
+O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**, com foco em boas práticas, organização de código e responsividade para dispositivos móveis.
 
 ---
 
