@@ -117,6 +117,10 @@ section {
   font-size: 6rem;
 }
 
+.content h3 span {
+  font-family: "JetBrains Mono", monospace;
+}
+
 .content p {
   color: #fff;
   font-size: 2rem;
