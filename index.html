@@ -162,7 +162,8 @@
 
             <div class="box">
                 <img src="./img/quote-img.png" alt="comentário">
-                <p>Ótimo café, atendimento impecável e um ambiente pensado para quem gosta de tecnologia. Dá vontade de passar horas a programar sem perceber o tempo passar.</p>
+                <p>Ótimo café, atendimento impecável e um ambiente pensado para quem gosta de tecnologia. Dá vontade de
+                    passar horas a programar sem perceber o tempo passar.</p>
                 <img src="./img/pic-2.png" alt="foto-cliente">
                 <h3>João da Silva</h3>
                 <div class="stars">
@@ -191,7 +192,8 @@
 
             <div class="box">
                 <img src="./img/quote-img.png" alt="comentário">
-                <p>O equilíbrio perfeito entre sabor e criatividade. O café é forte, o espaço é confortável e a energia do lugar realmente faz a diferença no dia a dia.</p>
+                <p>O equilíbrio perfeito entre sabor e criatividade. O café é forte, o espaço é confortável e a energia
+                    do lugar realmente faz a diferença no dia a dia.</p>
                 <img src="./img/pic-3.png" alt="foto-cliente">
                 <h3>António Lourenço</h3>
                 <div class="stars">
@@ -249,12 +251,39 @@
 </body>
 
 <script>
-    const menuBtn = document.getElementById('menu-btn');
-    const navbar = document.querySelector('.navbar');
+    const hamburger = document.getElementById('menu-btn');
+    const nav = document.querySelector('.navbar');
+    const menuLinks = document.querySelectorAll('.navbar a');
 
-    menuBtn.addEventListener('click', () => {
-        menuBtn.classList.toggle('active');
-        navbar.classList.toggle('active');
+    function fecharMenu() {
+        hamburger.classList.remove('active');
+        nav.classList.remove('active');
+    }
+
+    // Abrir / fechar menu
+    hamburger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+
+    // Fechar ao clicar num link
+    menuLinks.forEach(link => {
+        link.addEventListener('click', fecharMenu);
+    });
+
+    // Fechar ao clicar fora
+    document.addEventListener('click', (e) => {
+        if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+            fecharMenu();
+        }
+    });
+
+    // Fechar ao dar scroll
+    window.addEventListener('scroll', () => {
+        if (nav.classList.contains('active')) {
+            fecharMenu();
+        }
     });
 </script>
 
