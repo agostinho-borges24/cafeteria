@@ -44,6 +44,7 @@ dev-cafe/
 │
 ├── index.html
 ├── style.css
+├── scripts.js
 ├── README.md
 │
 └── img/
