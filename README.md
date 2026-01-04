@@ -1,4 +1,4 @@
-# ☕ Dev Café
+# Dev Café
 
 Website institucional responsivo para uma cafeteria temática voltada a programadores, unindo café de qualidade e tecnologia.
 
@@ -6,12 +6,12 @@ O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**, com foco em bo
 
 ---
 
-## 📸 Preview
+## Preview
 > Landing page com layout moderno, menu hamburger no mobile e design inspirado em cafeterias tech.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5  
 - CSS3
@@ -21,7 +21,7 @@ O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**, com foco em bo
 
 ---
 
-## 📱 Funcionalidades
+## Funcionalidades
 
 - Menu responsivo com **hamburger menu**
 - Layout adaptável para desktop, tablet e mobile
@@ -37,7 +37,7 @@ O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript**, com foco em bo
 
 ---
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 dev-cafe/
@@ -64,7 +64,7 @@ dev-cafe/
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 - Mobile First
 - Separação de responsabilidades (HTML / CSS / JS)
@@ -74,7 +74,7 @@ dev-cafe/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
 ```bash
@@ -91,7 +91,7 @@ cd dev-cafe
 
 ---
 
-## 🎯 Melhorias Futuras
+## Melhorias Futuras
 
 - Integração com backend
 - Sistema de pedidos online
@@ -101,7 +101,7 @@ cd dev-cafe
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Agostinho Borges**  
 
@@ -110,7 +110,7 @@ Desenvolvedor Frontend
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é livre para fins de estudo e aprendizado.
 
