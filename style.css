@@ -197,6 +197,7 @@ section {
 
 .menu .box-container .box img {
   height: 10rem;
+  border-radius: 50%;
 }
 
 .menu .box-container .box h3 {
